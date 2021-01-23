@@ -51,7 +51,7 @@ def download_block(hash_uid, filename):
         hash_uid = str(hash_uid)
         os.chdir(path_home)
 
-        entity = client.get_entity(client.get_me())
+        entity = client.get_entity(client.get_me()) #set client.get_me() if you want to send to private message!
         messages = client.get_messages(entity, limit=1, search=hash_uid)
         for i in range(len(messages)):
             msg = messages[i]
