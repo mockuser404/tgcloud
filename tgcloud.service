@@ -7,6 +7,6 @@ ExecStart=/bin/python2.7 dedupfs/dedupfs.py -f --block-size 20971520 -o hard_rem
 Restart=always
 RestartSec=10
 SyslogIdentifier=tgcloud-dedupfs-fuse
-User=<username>
+User=Cenzlyor
 [Install]
 WantedBy=multi-user.target
