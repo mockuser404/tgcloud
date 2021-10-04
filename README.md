@@ -35,7 +35,7 @@ git clone https://github.com/SlavikMIPT/tgcloud.git
 
 replace `<username>` in `tgcloud.service`
 ```
-sudo cp tgcloud.service /ect/systemd/system/
+sudo cp tgcloud.service /etc/systemd/system/
 sudo systemctl enable tgcloud.service
 sudo systemctl daemon-reload
 sudo systemctl start tgcloud.service
